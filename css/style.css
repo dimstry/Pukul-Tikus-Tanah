@@ -13,6 +13,7 @@ h1 {
   height: 200px;
   position: relative;
   overflow: hidden;
+  float: left;
 }
 
 .tanah::after {
@@ -33,7 +34,8 @@ h1 {
   background-size: 40%;
   position: absolute;
   top: 70px;
+  transition: top 0.3s;
 }
 .tanah.muncul .tikus {
-  top: 0;
+  top: -20px;
 }
